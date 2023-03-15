@@ -1,0 +1,29 @@
+.planScreen_plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.planScreen_plan:hover{
+    opacity: 1;
+}
+
+.planScreen_info{
+    font-size: larger;
+}
+
+.planScreen_subscribe{
+    padding: 10px 28px;
+    background-color: rgb(233, 22, 22);
+    color: white;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+}
+
+.planScreen_subscribe_disabled{
+    padding: 10px 10px;
+    background-color: gray;
+    cursor: pointer;
+}
