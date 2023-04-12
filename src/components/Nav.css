@@ -38,3 +38,16 @@
     top: 20px;
     width: 40px;
 }
+
+.nav-options{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    padding-left: 170px;
+    padding-top: 7px;   
+}
+
+.nav-options li a {
+    color: white;
+    text-decoration: none;
+  }

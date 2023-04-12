@@ -1,0 +1,26 @@
+.slider{
+    display: flex;
+}
+
+.mapping{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.mapping::-webkit-scrollbar{
+    display: none;
+}
+
+.sliding_effect::-webkit-scrollbar{
+    display: none
+  }
+
+
+.title{
+    color: white;
+    font-size: x-large;
+}
+

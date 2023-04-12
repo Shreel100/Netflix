@@ -13,13 +13,12 @@ import { useDispatch, useSelector } from 'react-redux'
 import { auth } from './firebase';
 import { login,logout, selectUser } from './features/counter/userSlice'
 
+
 function App() {
 
   const user = useSelector(selectUser);
 
   const dispatch = useDispatch()
-
-
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(userAuth => {
